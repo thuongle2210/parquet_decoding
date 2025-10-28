@@ -1,0 +1,11 @@
+[package]
+name = "decode_custom"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arrow-array = "57.0.0"
+arrow-schema = "57.0.0"
+parquet = "57.0.0"
+tempfile = "3.23.0"
+tokio = "1.48.0"
