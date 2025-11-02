@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ## Step 4: Run plotting script
 
 ```
-python plot.py
+python main.py
 ```
 
 ## Step 5: Deactivate virtual environment

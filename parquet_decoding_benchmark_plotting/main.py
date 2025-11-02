@@ -4,11 +4,12 @@ import matplotlib.pyplot as plt
 
 # Read CSV file into DataFrame
 df = pd.read_csv('../parquet_decoding_benchmark_processing/src/result/parquet_metadata_benchmark.csv')
+df.to_markdown('detailed_comparision.md', index=False)
 
 # Calculate speedups
 df['moonlink'] = 1.0  # baseline always 1
-df['parquet56_speedup'] = df['avg_time_thrift_s'] / df['avg_time_parquet56_s']
-df['parquet57_speedup'] = df['avg_time_thrift_s'] / df['avg_time_parquet57_s']
+df['parquet56_speedup'] = df['avg_time_moonlink_thrift_custom_s'] / df['avg_time_parquet56_s']
+df['parquet57_speedup'] = df['avg_time_moonlink_thrift_custom_s'] / df['avg_time_parquet57_s']
 
 # Unique data types and number of plots
 data_types = df['data_type'].unique()

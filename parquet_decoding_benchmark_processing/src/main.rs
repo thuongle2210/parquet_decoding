@@ -199,7 +199,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     wtr.write_record(&[
         "fields_num",
         "data_type",
-        "avg_time_thrift_s",
+        "avg_time_moonlink_thrift_custom_s",
         "avg_time_parquet56_s",
         "avg_time_parquet57_s",
     ])?;

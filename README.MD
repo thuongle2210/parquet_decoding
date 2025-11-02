@@ -10,3 +10,19 @@ The experiment showed that the built-in decode_metadata function in Parquet vers
 ## Performance Comparision
 ![alt text](parquet_decoding_benchmark_plot/result/speedup_comparison.png)
 
+
+## Detailed Performance Comparision:
+
+![alt text](parquet_decoding/parquet_decoding_benchmark_plotting/README.MD)
+
+## Project Set-up step by step
+There are 2 sub-project
+1. benchmark processing which are written by RUST
+![re-produce](parquet_decoding/parquet_decoding_benchmark_processing/README.MD)
+
+2. benchmark plotting by python
+![re-produce](parquet_decoding/parquet_decoding_benchmark_plotting/README.MD)
+
+
+
+
