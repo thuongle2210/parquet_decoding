@@ -1,27 +1,24 @@
-# step 1:
-setup env:
+# parquet_decoding_benchmark_plot Setup and Usage
+
+## Step 1: Set up environment
+```
+cd parquet_decoding_benchmark_plot
 pyenv install $(python --version 2>&1 | awk '{print $2}')
-
-# step 2:
-create env:
-
-
+```
+## Step 2: Create and activate virtual environment
+```
 pyenv virtualenv $(python --version 2>&1 | awk '{print $2}') parquet_decoding_benchmark_plot_venv
-
 pyenv activate parquet_decoding_benchmark_plot_venv
-
 pyenv local parquet_decoding_benchmark_plot_venv
+```
+## Step 3: Install dependencies
+```
+pip install -r requirements.txt
+```
+## Step 4: Run plotting script
 
-# step 3:
-install dependencies:
+```python plot.py```
 
-# step 4: set local 
-pyenv local venv_myproject
+## Step 5: Deactivate virtual environment
 
-# step 5: plotting...
-pyenv local venv_myproject
-
-# step 6: deactive pyenv deactivate
-
-
-
+```pyenv deactivate```
