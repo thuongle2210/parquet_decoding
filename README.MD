@@ -8,4 +8,4 @@ Inspired by the new release of the [Apache Arrow Parquet Rust crate](https://arr
 The experiment showed that the built-in decode_metadata function in Parquet version 57.0.0 indeed outperformed both version 56.0.0 and Moonlink’s custom Thrift parser implementation in terms of speed, confirming the significant performance improvements made in the latest release.
 
 ## Performance Comparision
-![alt text](image.png)
+![alt text](parquet_decoding/parquet_decoding_benchmark_plot/result/speedup_comparison.png)
