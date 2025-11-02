@@ -12,3 +12,4 @@ tokio = "1.48.0"
 parquet_55 = {  package = "parquet",  version = "55.0.0" }
 parquet_56 = {  package = "parquet",  version = "56.0.0" }
 parquet_57 = {  package = "parquet",  version = "57.0.0" }
+csv = "1.4.0"
