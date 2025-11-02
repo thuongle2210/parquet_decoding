@@ -42,4 +42,5 @@ axs[0].set_ylabel('Speedup (times faster than Moonlink)')
 
 plt.suptitle('Metadata Decoding Time Speedup Comparison')
 plt.tight_layout(rect=[0, 0.03, 1, 0.95])
+plt.savefig('result/speedup_comparison.png', dpi=300, bbox_inches='tight')  # Save plot as image
 plt.show()
