@@ -1,0 +1,16 @@
+[package]
+name = "parquet_decoding_benchmark_processing"
+version = "0.1.0"
+edition = "2024"
+ 
+[dependencies]
+arrow-array = "57.0.0"
+arrow-schema = "57.0.0"
+tempfile = "3.23.0"
+thrift = "0.17.0"
+tokio = "1.48.0"
+parquet_55 = {  package = "parquet",  version = "55.0.0" }
+parquet_56 = {  package = "parquet",  version = "56.0.0" }
+parquet_57 = {  package = "parquet",  version = "57.0.0" }
+csv = "1.4.0"
+plotters = "0.3.7"
