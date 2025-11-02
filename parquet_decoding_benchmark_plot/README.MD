@@ -17,8 +17,12 @@ pip install -r requirements.txt
 ```
 ## Step 4: Run plotting script
 
-```python plot.py```
+```
+python plot.py
+```
 
 ## Step 5: Deactivate virtual environment
 
-```pyenv deactivate```
+```
+pyenv deactivate
+```
