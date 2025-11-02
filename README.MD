@@ -9,3 +9,4 @@ The experiment showed that the built-in decode_metadata function in Parquet vers
 
 ## Performance Comparision
 ![alt text](parquet_decoding_benchmark_plot/result/speedup_comparison.png)
+
