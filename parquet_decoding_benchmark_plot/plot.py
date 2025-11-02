@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read CSV file into DataFrame
-df = pd.read_csv('parquet_metadata_benchmark.csv')
+df = pd.read_csv('../parquet_decoding_benchmark_processing/src/result/parquet_metadata_benchmark.csv')
 
 # Calculate speedups
 df['moonlink'] = 1.0  # baseline always 1
